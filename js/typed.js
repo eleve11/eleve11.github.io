@@ -209,7 +209,7 @@
                     if (self.arrayPos == 0){
                       self.stopNum = 10;
                     }else if(self.arrayPos == 1){
-                        self.stopNum = 87;
+                        self.stopNum = 74;
                     }
                     //every other time, delete the whole typed string
                     else{
