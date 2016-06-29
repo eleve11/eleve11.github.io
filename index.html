@@ -20,11 +20,12 @@
   <script>
   $(function(){
     $(".element").typed({
-      strings: ["Hi I'm Andrea. ^500 But you can call me Andy.",
-      "Hi I'm Andy. ^1000 I code, ^1000 watch films ^1000 and mamma mia I want to change the world! "],
+      strings: ["Hi I'm Andrea. ^500 But you can call me Andy. ",
+      "Hi I'm Andy. ^1000 \nI am a coder, ^1000 self-defined cinephile, ^1000 books lover ^1000 \nand I'm planning to take over","Hi I'm Andy. \nI am a coder, self-defined cinephile, books lover \nand I'm planning to change the world! "],
       typeSpeed: 20,
-      backDelay: 1000, 
-      contentType: 'html',
+      backSpeed: 60,
+      backDelay: 600, 
+      contentType: 'text',
       showCursor: true,
       cursorChar: "|",
 
@@ -45,7 +46,7 @@
       <!-- main content -->
       <div class="container">
         <div class="jumbotron text-center">
-          <h2 class="element"></h2>
+          <h2 class="element" style="white-space:pre"></h2>
       </div>
     </div>
 </body></html>

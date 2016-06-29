@@ -208,6 +208,8 @@
                     // keep in the current string. In my case it's 14.
                     if (self.arrayPos == 0){
                       self.stopNum = 10;
+                    }else if(self.arrayPos == 1){
+                        self.stopNum = 87;
                     }
                     //every other time, delete the whole typed string
                     else{
