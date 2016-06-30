@@ -1,4 +1,5 @@
 body{
+	/* Background by hampusolsson.com */
 	background: url('../img/golden_mountain.jpg') no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -15,18 +16,33 @@ body{
 	border-radius: 0px;
 	background-color: transparent;
 	color: #ffffff;
-	text-shadow: 1px 1px 1px #222;
+	text-shadow: 1px 1px 5px #222;
 }
 
-h1, h2, h3, h4, p, ul, li{
+h1, h2, h3, h4, p, ul{
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
-	color: #ffffff;
+}
+
+#social, li, a{
+    list-style-type: none;
+    vertical-align: center;
+    display:inline;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* hide social buttons at first*/
+.button_bar{
+    margin: auto;
+	background-color: transparent;
+	display: none;
+    text-align: center;
 }
 
 #link-alert{
 	/*font-weight: bolder;*/
-	color: #FFC107;
+	color: #D97B21;
 }
 
 .element{

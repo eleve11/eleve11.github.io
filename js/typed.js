@@ -19,10 +19,6 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-
-
-
-
 !function($){
 
     "use strict";
@@ -209,7 +205,7 @@
                     if (self.arrayPos == 0){
                       self.stopNum = 10;
                     }else if(self.arrayPos == 1){
-                        self.stopNum = 74;
+                        self.stopNum = 75;
                     }
                     //every other time, delete the whole typed string
                     else{
@@ -274,6 +270,34 @@
         //callback for every typed string
         onStringTyped: function(){ null }
     }
-
-
 }(window.jQuery);
+
+
+/*
+ * run the typed.js with specified atributes
+ */
+ $(function(){
+    $(".element").typed({
+      strings: ["Hi I'm Andrea. ^500 But you can call me Andy. ",
+      "Hi I'm Andy. ^1000 \nI am a coder, ^1000 cinephile, ^1000 avid reader ^1000 \nand I'm planning to take over",
+      "Hi I'm Andy. \nI am a coder, cinephile, avid reader \nand I'm planning to change the world! \n Get in touch:"],
+      typeSpeed: 20,
+      backSpeed: 80,
+      backDelay: 600, 
+      contentType: 'text',
+      showCursor: true,
+      cursorChar: "|",
+
+      // call when done callback function
+      callback: function() {
+         //show social buttons when finished typing
+        $(".button_bar").fadeIn(1000);
+      },
+      // starting callback function before each string
+      preStringTyped: function() {},
+      //callback for every typed string
+      onStringTyped: function() {      },
+      // callback for reset
+      resetCallback: function() {}
+    })
+  });
