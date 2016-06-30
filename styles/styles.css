@@ -24,12 +24,21 @@ h1, h2, h3, h4, p, ul{
 	line-height: 1.5;
 }
 
-#social, li, a{
+.social:before, li, a{
+    /* list */
     list-style-type: none;
     vertical-align: center;
     display:inline;
-    font-size: 30px;
+    margin-right: 0.3em;
+    font-size: 130%;
     color: #ffffff;
+    text-shadow: 1px 1px 3px #222;
+}
+
+a:hover{
+    color: #ffffff;
+    text-shadow: 1px 1px 8px white;
+    text-decoration: none;
 }
 
 /* hide social buttons at first*/
@@ -38,11 +47,6 @@ h1, h2, h3, h4, p, ul{
 	background-color: transparent;
 	display: none;
     text-align: center;
-}
-
-#link-alert{
-	/*font-weight: bolder;*/
-	color: #D97B21;
 }
 
 .element{
