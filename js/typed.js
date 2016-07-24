@@ -277,11 +277,11 @@
  $(function(){
     $(".element").typed({
       strings: ["Hi I'm Andrea. ^500 But you can call me Andy. ",
-      "Hi I'm Andy. ^600 \nI am a coder, ^600 cinephile, ^600 fast learner. ^600 \n Planning to make the world a better place. Get in touch: "],
+      "Hi I'm Andy. ^600 \nI am a coder, ^600 cinephile, ^600 fast learner. ^600 \nPlanning to make the world a better place.\nGet in touch: "],
       typeSpeed: 20,
       backSpeed: 100,
       backDelay: 400, 
-      contentType: 'text',
+      contentType: 'html',
       showCursor: true,
       cursorChar: "|",
 
