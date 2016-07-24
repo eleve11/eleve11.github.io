@@ -204,8 +204,6 @@
                     // keep in the current string. In my case it's 14.
                     if (self.arrayPos == 0){
                       self.stopNum = 10;
-                    }else if(self.arrayPos == 1){
-                        self.stopNum = 75;
                     }
                     //every other time, delete the whole typed string
                     else{
@@ -279,8 +277,7 @@
  $(function(){
     $(".element").typed({
       strings: ["Hi I'm Andrea. ^500 But you can call me Andy. ",
-      "Hi I'm Andy. ^600 \nI am a coder, ^600 cinephile, ^600 avid reader ^600 \nand I'm planning to take over",
-      "Hi I'm Andy. \nI am a coder, cinephile, avid reader \nand I'm planning to change the world! \n Get in touch: "],
+      "Hi I'm Andy. ^600 \nI am a coder, ^600 cinephile, ^600 fast learner. ^600 \n Planning to make the world a better place. Get in touch: "],
       typeSpeed: 20,
       backSpeed: 100,
       backDelay: 400, 
@@ -296,7 +293,7 @@
       // starting callback function before each string
       preStringTyped: function() {},
       //callback for every typed string
-      onStringTyped: function() {      },
+      onStringTyped: function() {},
       // callback for reset
       resetCallback: function() {}
     })
