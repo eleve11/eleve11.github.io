@@ -272,12 +272,12 @@
 
 
 /*
- * run the typed.js with specified atributes
+ * run the typed.js with specified attributes
  */
  $(function(){
     $(".element").typed({
-      strings: ["Hi I'm Andrea. ^500 But you can call me Andy. ",
-      "Hi I'm Andy.^600 \nI am a coder, ^600 cinephile, ^600 star gazer. ^600 \nPlanning to make the world a better place.\nGet in touch: "],
+      strings: ["Hi I'm Andrea. ^500 But you can call me Andy.",
+      "Hi I'm Andy. ^600 \nI am a coder, ^600 cinephile, ^600 star gazer. ^600 \nPlanning to make the world a better place.\nGet in touch: "],
       typeSpeed: 20,
       backSpeed: 100,
       backDelay: 400, 
