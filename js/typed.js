@@ -276,10 +276,10 @@
  */
  $(function(){
     $(".element").typed({
-      strings: ["Hi I'm Andrea. ^500 But you can call me Andy.",
-      "Hi I'm Andy. ^600 \nI am a coder, ^600 cinephile, ^600 star gazer. ^600 \nPlanning to make the world a better place.\nGet in touch: "],
-      typeSpeed: 20,
-      backSpeed: 100,
+      strings: ["Hi I'm Andrea. ^400 But you can call me Andy.",
+      "Hi I'm Andy. ^500 \nI am a coder, ^500 cinephile, ^500 star gazer. ^500 \nPlanning to make the world a better place.\nGet in touch: "],
+      typeSpeed: 10,
+      backSpeed: 10,
       backDelay: 400, 
       contentType: 'html',
       showCursor: true,
