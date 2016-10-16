@@ -274,7 +274,7 @@
 /*
  * run the typed.js with specified attributes
  */
- $(function(){
+ $(document).ready(function(){
     $(".element").typed({
       strings: ["Hi I'm Andrea. ^400 But you can call me Andy.",
       "Hi I'm Andy. ^500 \nI am a coder, ^500 cinephile, ^500 star gazer. ^500 \nPlanning to make the world a better place.\nGet in touch: "],
