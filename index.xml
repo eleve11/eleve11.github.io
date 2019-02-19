@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrea D&#39;Olimpio</title>
-    <link>https://adolimpio.ml/</link>
+    <link>http://adolimpio.ml/</link>
     <description>Recent content on Andrea D&#39;Olimpio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Mon, 18 Feb 2019 22:46:36 +0000</lastBuildDate>
     
-	<atom:link href="https://adolimpio.ml/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://adolimpio.ml/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://adolimpio.ml/about/</link>
+      <link>http://adolimpio.ml/about/</link>
       <pubDate>Mon, 18 Feb 2019 22:46:36 +0000</pubDate>
       
-      <guid>https://adolimpio.ml/about/</guid>
+      <guid>http://adolimpio.ml/about/</guid>
       <description>Coming soon.</description>
     </item>
     
