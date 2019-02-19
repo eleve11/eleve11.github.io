@@ -1,0 +1,9 @@
+const throttle=(callback,limit)=>{let timeoutHandler=null;return()=>{if(timeoutHandler==null){timeoutHandler=setTimeout(()=>{callback();timeoutHandler=null;},limit);}};};const listen=(ele,e,callback)=>{if(document.querySelector(ele)!==null){document.querySelector(ele).addEventListener(e,callback);}}
+let header=document.getElementById('site-header');let lastScrollPosition=window.pageYOffset;const autoHideHeader=()=>{let currentScrollPosition=window.pageYOffset;if(currentScrollPosition>lastScrollPosition){header.classList.remove('fadeInDown');header.classList.add('fadeOutUp');}else{header.classList.remove('fadeOutUp');header.classList.add('fadeInDown');}
+lastScrollPosition=currentScrollPosition;}
+let mobileMenuVisible=false;const toggleMobileMenu=()=>{let mobileMenu=document.getElementById('mobile-menu');if(mobileMenuVisible==false){mobileMenu.style.animationName='bounceInRight';mobileMenu.style.webkitAnimationName='bounceInRight';mobileMenu.style.display='block';mobileMenuVisible=true;}else{mobileMenu.style.animationName='bounceOutRight';mobileMenu.style.webkitAnimationName='bounceOutRight'
+mobileMenuVisible=false;}}
+const showImg=()=>{document.querySelector('.bg-img').classList.add('show-bg-img');}
+const hideImg=()=>{document.querySelector('.bg-img').classList.remove('show-bg-img');}
+const toggleToc=()=>{document.getElementById('toc').classList.toggle('show-toc');}
+if(header!==null){listen('#menu-btn',"click",toggleMobileMenu);listen('#toc-btn',"click",toggleToc);listen('#img-btn',"click",showImg);listen('.bg-img',"click",hideImg);window.addEventListener('scroll',throttle(()=>{autoHideHeader();if(mobileMenuVisible==true){toggleMobileMenu();}},250));}
