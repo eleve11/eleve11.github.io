@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Andrea D&#39;Olimpio</title>
-    <link>http://adolimpio.ml/</link>
-    <description>Recent content on Andrea D&#39;Olimpio</description>
+    <title>Science on Andrea D&#39;Olimpio</title>
+    <link>http://adolimpio.ml/tags/science/</link>
+    <description>Recent content in Science on Andrea D&#39;Olimpio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Mon, 11 Mar 2019 20:30:43 +0000</lastBuildDate>
     
-	<atom:link href="http://adolimpio.ml/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://adolimpio.ml/tags/science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
       <description>Recently I came across a really interesting fact about the common seasquirt. This peculiar creature lives its life in two very different phases.
   an &amp;ldquo;adult&amp;rdquo;sea squirt
   a day in life of a seasquirt When it&amp;rsquo;s born, it quickly develops from egg into a tadpole-like creature. It has a simple eye and a tail to swim about. It even has a spinal cord and a primitive brain to control it&amp;rsquo;s movement.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://adolimpio.ml/about/</link>
-      <pubDate>Mon, 18 Feb 2019 22:46:36 +0000</pubDate>
-      
-      <guid>http://adolimpio.ml/about/</guid>
-      <description>I&amp;rsquo;m Andrea I am currently a MRes student at the University of Edinburgh.
-Previously, I pursued a BSc in Computer Science at the University of Southampton. During my degree I worked as a Google SWE Intern first in Munich, Germany then Mountain View, CA. My interests are directed toward Machine Learning and evolved into Reinforcement Learning and Computational Cognitive Neuroscience and Psychiatry, the focus of my current reasearch.
-I also spend my time reading, hiking, and dancing salsa.</description>
     </item>
     
   </channel>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Misc on Andrea D&#39;Olimpio</title>
+		<link>http://adolimpio.ml/misc/</link>
+		<description>Recent content in Misc on Andrea D&#39;Olimpio</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Mon, 11 Mar 2019 20:30:43 +0000</lastBuildDate>
+		<atom:link href="http://adolimpio.ml/misc/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>What the sea squirt tells us about our brain</title>
+			<link>http://adolimpio.ml/misc/sea-squirt-brain/</link>
+			<pubDate>Mon, 11 Mar 2019 20:30:43 +0000</pubDate>
+			
+			<guid>http://adolimpio.ml/misc/sea-squirt-brain/</guid>
+			<description>Recently I came across a really interesting fact about the common seasquirt. This peculiar creature lives its life in two very different phases.
+  an &amp;ldquo;adult&amp;rdquo;sea squirt
+  a day in life of a seasquirt When it&amp;rsquo;s born, it quickly develops from egg into a tadpole-like creature. It has a simple eye and a tail to swim about. It even has a spinal cord and a primitive brain to control it&amp;rsquo;s movement.</description>
+			<content type="html"><![CDATA[
+
+<p>Recently I came across a really interesting fact about the common seasquirt.
+This peculiar creature lives its life in two very different phases.</p>
+
+<figure>
+    <img src="../../images/seasquirt.jpeg"
+         alt="seasquirt"/> <figcaption>
+            <p>an &ldquo;adult&rdquo;sea squirt</p>
+        </figcaption>
+</figure>
+
+
+<h2 id="a-day-in-life-of-a-seasquirt">a day in life of a seasquirt</h2>
+
+<p>When it&rsquo;s born, it quickly develops from egg into a tadpole-like creature.
+It has a simple eye and a tail to swim about. It even has a spinal cord and a primitive brain to control it&rsquo;s movement.</p>
+
+<p>The seasquirt swims with a purpose: it is looking for a home where it will spend the rest of its life.
+So, when it finally finds a rock (or boat) that it likes, it latches on to it and the second phase of its life begins.</p>
+
+<figure>
+    <img src="../../images/seasquirt-metamorphosis.jpg"
+         alt="seasquirt metamorphosis"/> <figcaption>
+            <p>metamorphosis of the sea squirt</p>
+        </figcaption>
+</figure>
+
+
+<p>Here&rsquo;s where things get really interesting. Once it has found a home, the seasquirt starts <strong>eating its own brain</strong><sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>.
+Being permanently attached to a home makes the need for a brain superfluous, so its body digests it for the protein that it provides and then keeps on living for decades without a brain.</p>
+
+<h2 id="what-this-means-for-us">what this means for us</h2>
+
+<p>The seasquirt, a distant relative to humans,  gives us some insight about what the brain evolved to do: its original funciton is strictly related to movement.</p>
+
+<p>In fact, recent studies suggest that physical activity increases the white matter microstructure in our brain<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup><sup class="footnote-ref" id="fnref:3"><a href="#fn:3">3</a></sup>.
+This white matter is responsible for fast and efficient communication between different brain regions.</p>
+
+<figure>
+    <img src="../../images/white-matter.jpg"
+         alt="white matter"/> <figcaption>
+            <p>white matter structure of human brain (MRI)</p>
+        </figcaption>
+</figure>
+
+
+<p>Let&rsquo;s pause and think about this for a moment.
+In modern society, children and adults are more and more encouraged to spend big part of their day sitting at a desk.
+And when we have free time at the end of the day we often find ourselves captured by a screen.
+These stationary behaviours have a negative effect on our brain development<sup class="footnote-ref" id="fnref:3"><a href="#fn:3">3</a></sup>, so we should actively try to avoid them.</p>
+
+<p>Adjustable-height desks are a very productive solution to the work-related problems, but not all can afford that.
+Ideally one should try and be more active.
+Even something as simple as setting up a reminder to stand up and walk about every so often can make a difference.
+In fact, that&rsquo;s what I&rsquo;m about to do, together with abruptly ending this blog post.</p>
+
+<!--
+
+> The nervous system is only necessary for multi-cellular creatures … that can orchestrate and express active movement [^2].
+
+Food for thought, how to people in the modern world sit still for hours and hours during the day.
+
+The seasquirt is a sponge like creature that when it's born it's a sort of tadpole with an eye and a tail and it uses them to swim around and find a home where it will live the rest of its life.
+Whatever rock (or boat) it chooses it then latches on and stays there forever.
+But interestingly, once it find a home, it eats its own brain. This happens because once it has found a home it no longer need a brain for moving about.
+So it absorbs it for the protein that it provides and lives for decades with no brain at all.
+-->
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/dvg.22824">Methamorphosis in Solitary Ascidians</a>
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2"><a href="https://www.frontiersin.org/articles/10.3389/fnins.2018.00950/fullo">Physical Activity Increase White Matter Microstructure in Children</a>
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:3"><a href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0107413&amp;type=printable">Physical Activity and Cardiorespiratory Fitness Are Beneficial for White Matter in Low-Fit Older Adults</a>
+ <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
+</ol>
+</div>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
